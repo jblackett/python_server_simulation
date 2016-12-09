@@ -16,8 +16,8 @@ if __name__ == '__main__':
     # simulate requests
     for i in range(20):
         # create random numbers
-        num_a = randint(5, 999)
-        num_b = randint(5, 999)
+        num_a = randint(5, 8)
+        num_b = randint(5, 10)
 
         server = load_balancer.get_server()
 
